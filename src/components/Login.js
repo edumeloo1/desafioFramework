@@ -5,7 +5,6 @@ import {
   View,
   Image,
   TextInput,
-  Alert,
   TouchableOpacity,
 } from 'react-native';
 
@@ -24,8 +23,8 @@ export default function Login({navigation}) {
       <TouchableOpacity
         style={styles.botao}
         onPress={() => navigation.navigate('Inicio')}>
-            <Text>Login</Text>
-        </TouchableOpacity>
+        <Text>Login</Text>
+      </TouchableOpacity>
     </View>
   );
 }
